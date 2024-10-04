@@ -35,27 +35,47 @@ ul {
 body {
     background-color: #EFEEF3;
     font-family: "Kodchasan", sans-serif;
+
 }
 
 
 main {
-.banner{
-    width: 100%;
-    @media (max-width:800px)
-    {
-        display: none; //retirando a imagem
+    .banner {
+        width: 100%;
+
+        @media (max-width:800px) {
+            display: none; //retirando a imagem
+        }
+    }
+
+    section {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        @media (max-width: 800px) {
+            flex-direction: column;
+        }
+
+
+    }
+
+    .caixa1 {
+        width: 30vw;
+        line-height: 25px;
+        text-align: center;
+
+        @media (max-width:800px) {
+            width: 55vw;
+            margin-top: 30px;
+        }
+    }
+
+    figure {
+        img {
+            width: 5vw;
+            margin: 20px;
+        }
     }
 }
-
-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.caixa1{
-    width: 30vw;
-
-}
-}
-
