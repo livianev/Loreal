@@ -35,7 +35,7 @@ body {
 }
 
 main .banner {
-  width: 100%;
+  width: 100vw;
 }
 @media (max-width: 800px) {
   main .banner {
@@ -67,4 +67,8 @@ main .caixa1 {
 main figure img {
   width: 5vw;
   margin: 20px;
+}
+
+.subtitulo {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
